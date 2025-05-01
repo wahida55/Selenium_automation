@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d4c72cd-140f-45d3-a74f-5c7043934d45" name="Changes" comment="Commiting" />
+    <list default="true" id="3d4c72cd-140f-45d3-a74f-5c7043934d45" name="Changes" comment="Whatevvvv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +29,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Wahida Borbhuyan/Desktop/GIT DEMO"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Wahida Borbhuyan/Desktop/GIT DEMO&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Commiting">
       <option name="closed" value="true" />
@@ -65,6 +65,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commiting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting" />
+    <MESSAGE value="Whatevvvv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Whatevvvv" />
   </component>
 </project>
