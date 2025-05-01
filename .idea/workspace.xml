@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73a78771-fa75-4243-9451-3bbbc6a56c3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Automation_P1/Demo browser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation_P1/Hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation_P1/Selenium_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="73a78771-fa75-4243-9451-3bbbc6a56c3a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
