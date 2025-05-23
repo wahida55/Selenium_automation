@@ -29,12 +29,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Wahida Borbhuyan/Desktop/GIT DEMO&quot;
+  <component name="ProjectViewState">
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Wahida Borbhuyan/Documents/Python Scripts/Programs"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Commiting">
       <option name="closed" value="true" />
