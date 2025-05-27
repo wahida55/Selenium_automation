@@ -22,7 +22,7 @@ driver.find_element(By.XPATH,"//div[@class='action-block']/button").click()
 driver.find_element(By.CSS_SELECTOR,".promoCode").send_keys("rahulshettyacademy")
 driver.find_element(By.XPATH,"//div[@class='promoWrapper']/button").click()
 wait = WebDriverWait(driver,10)
-wait.until(expected_conditions.presence_of_element_located(By.CSS_SELECTOR,".promoInfo"))
+wait.until(expected_conditions.presence_of_element_located((By.CSS_SELECTOR,".promoInfo")))
 promo = driver.find_element(By.CLASS_NAME,"promoInfo").text
 assert promo == "Code applied ..!"
 
