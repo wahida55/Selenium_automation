@@ -1,0 +1,25 @@
+NOTES :
+
+Selenium locators :
+1. ID
+    driver.find_element(By.ID, "id_of_element")
+2. XPATH
+    driver.find_element(By.XPATH, "xpath")
+3. CSS SELECTORS
+    driver.find_element(By.CSS_SELECTOR, "CSS Selectors")
+4. CLASSNAME
+    driver.find_element(By.CLASS_NAME, "class_of_element")
+5. NAME
+    driver.find_element(By.NAME, "name_of_element")
+6. LINKTEXT
+    driver.find_element(By.LINK_TEXT, "Text of Link")
+7. PARTIAL LINK TEXT
+    driver.find_element(By.PARTIAL_LINK_TEXT, "Text of Link")
+8. TAGNAME
+    driver.find_element(By.TAG_NAME, "Tag name")
+
+Formula for xpath :
+//tagname[@attribute="value"]
+
+Formula for CSS selector :
+tagname[attribute = "value"]
