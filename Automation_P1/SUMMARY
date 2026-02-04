@@ -23,3 +23,25 @@ Formula for xpath :
 
 Formula for CSS selector :
 tagname[attribute = "value"]
+
+STATIC DROPDOWN : Dropdown values remain fixed.
+AUTO SUGGESTIVE DROPDOWN : Dropdown values change wrt inputs.
+
+**static dropdown is used when a select tag is present and we have select class.
+
+dropdown = select(driver.find_element(By.ID,"xyz"))
+dropdown.select_by_index(0)
+dropdown.select_by_visible_text("Female")
+dropdown.select_by_value("value")
+
+AUTO SUGGESTIVE DROPDOWNS :
+
+We cannot hardcode popups , so we need to loop in the options.
+Get access to all elements in the dropdown.
+
+countries = driver.find_elements(By.CSS_selector,"li[class="ui_menu_item]a")
+print(len(countries))
+for country in countries :
+    if country.text == "India":
+        country.click()
+        break

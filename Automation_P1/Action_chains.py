@@ -1,4 +1,4 @@
-#Actions class in selenium helps with the mouse hover functionality
+#Actions class in selenium helps with the mouse hover functionality like drag and drop,double click and right click.
 import time
 import selenium
 from selenium import webdriver
@@ -13,6 +13,6 @@ action = ActionChains(driver)
 action.click_and_hold().perform() # long press #perform is mandatory with actions
 action.context_click().perform() #Right click
 action.double_click().perform() # Double click
-action.drag_and_drop().perform() #Drag and drop from source to target
+#action.drag_and_drop().perform() #Drag and drop from source to target
 
 time.sleep(2)
