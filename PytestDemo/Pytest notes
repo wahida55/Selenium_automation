@@ -1,0 +1,40 @@
+# Any pytest file should start with a test_
+# pytest method names should start with test_
+# Each method is a different testcase
+# No two testcases can have same test names.(Method names)
+# Method name must make sense according to the module to be tested(testcase_name).
+# -k stands for method name execution, -s : logs in output, -v : more info metadata.
+
+# Marker tags such as [smoke,sanity,regression] and run them as :
+To mark :
+@pytest.mark.smoke in testcases method
+pytest -m smoke -v -s
+pytest -m sanity -v -s
+pytest -m regression -v -s
+
+#To skip a test [In case a bug is present in a particular testcase]
+@pytest.mark.skip
+
+#To run instead of skipping [maybe output is input to another testcase]
+But in output, no reporting as FAIL in logs.
+@pytest.mark.xfail
+
+# To create HTML reports
+pytest --html reports.html
+
+# Fixtures : For test setup and teardown methods.
+@pytest.fixture
+
+# conftest.py file contains all fixtures and makes it available to all test files.
+
+# datadriven and parameterization can be done with return statements in tuple format.
+
+# when we define fixture scope to class only , then it will run only once when class is
+initiated and at the end.
+
+# HTML REPORTS
+
+
+
+
+
